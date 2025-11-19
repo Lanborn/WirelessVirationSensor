@@ -1,0 +1,14 @@
+#pragma once
+
+#include <Arduino.h>
+
+// Copy this file to config.h and fill the values before building.
+namespace config {
+constexpr char kWifiSsid[] = "YOUR_WIFI";
+constexpr char kWifiPassword[] = "YOUR_PASSWORD";
+constexpr char kMqttBroker[] = "192.168.1.10";
+constexpr uint16_t kMqttPort = 1883;
+constexpr char kMqttUser[] = "user";
+constexpr char kMqttPassword[] = "pass";
+constexpr char kDeviceId[] = "vibe-node-01";
+}
